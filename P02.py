@@ -20,7 +20,7 @@ while jegy == 1 or jegy > 5 or jegy < 1:
         break
 else:
     print("Jól teljesített")
-print("Gratulálunk")'''
+print("Gratulálunk")
 
 kocka = random.randint(1,6)
 while True:
@@ -28,6 +28,38 @@ while True:
     if tipp == kocka:
         break
 print("Sikerült eltalálnod a számot")
+
+lista = (1,4,7,70)
+for elem in lista:
+    print(elem)
+
+def fv():
+    pass
+
+for elem in range (1, 6):
+    if elem == 3:
+        continue
+    print(elem, "Nem leszek többet rossz!")
+
+try:
+    print (10/2)
+    print("OK")
+except ZeroDivisionError:
+    print("Hiba! Nullával osztás")
+except NameError:
+    print("Hiba! Névhiba")'''
+
+while True:
+    try:
+        szam = int(input("Kérek egy egész számot:"))
+    except:
+        print("Nem egész számot adtál meg!")
+    else:
+        break
+
+
+
+
 
 
 
