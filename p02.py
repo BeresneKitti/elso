@@ -47,7 +47,7 @@ try:
 except ZeroDivisionError:
     print("Hiba! Nullával osztás")
 except NameError:
-    print("Hiba! Névhiba")'''
+    print("Hiba! Névhiba")
 
 while True:
     try:
@@ -55,7 +55,9 @@ while True:
     except:
         print("Nem egész számot adtál meg!")
     else:
-        break
+        break'''
+
+
 
 
 
